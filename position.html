@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position</title>
+    <style>
+        .div1 , .div2 {
+            border: 2px solid red  ;
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            padding: 5px;
+            box-sizing: border-box;
+            border-radius: 3px;
+        }
+        .div1 h1{
+            position: relative;
+            top: 50px;
+        }
+        .div2 h1{
+            position: absolute;
+            top:100px;
+        }
+        
+       /* static is default*/
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <h1> 1</h1>
+        </div>
+        <div class="div2">
+        <h1>2</h1>
+</div>
+</body>
+</html>
