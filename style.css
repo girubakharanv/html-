@@ -62,7 +62,7 @@ nav ul li a{
     bottom: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* ensures video fills background */
+    object-fit: cover; 
     z-index: -1;
 }
 .content h1:hover{
